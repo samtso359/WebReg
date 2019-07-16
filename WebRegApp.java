@@ -36,7 +36,7 @@ public class WebRegApp{
 		int dept, numCredits;
 		boolean success;
 
-		catalogFilename = "src/CourseCatalog/catalog.txt";
+		catalogFilename = "WebReg-master/catalog.txt";
 		catalog = readFile(catalogFilename);
 		if (catalog == null){
 			System.err.println("Error reading " + catalogFilename + ":");
