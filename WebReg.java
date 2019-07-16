@@ -204,7 +204,6 @@ public class WebReg {
 			int maxIndex=0;  // set first item to be max
 			for (int j=0; j < n; j++) { 
 				if ((arr[j].getDepartment() == arr[maxIndex].getDepartment())&&(arr[j].getCourseNumber() > arr[maxIndex].getCourseNumber())) {
-					System.out.println(arr[j].getDepartment()+"."+arr[j].getCourseNumber()+"  "+arr[maxIndex].getDepartment()+"."+arr[maxIndex].getCourseNumber());
 					maxIndex = j;
 					continue;
 				}
